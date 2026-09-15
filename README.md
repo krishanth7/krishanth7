@@ -46,3 +46,5 @@ Some of the areas I build and experiment in include:
 > **Think → Build → Test → Learn → Improve**
 
 Not every experiment is intended to become a finished product. Some exist simply to understand a problem, test an idea, or discover a better approach.
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=radical)
