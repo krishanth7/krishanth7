@@ -1,8 +1,12 @@
 # Hi, I'm Krishanth 👋
 
-### AI • AGI • Robotics • Software • Research
+### AI • AGI • Robotics • Research
 
 Building, experimenting, and exploring intelligent systems through code, research, and open-source development.
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=krishanth7&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
 ## About
 
@@ -47,4 +51,20 @@ Some of the areas I build and experiment in include:
 
 Not every experiment is intended to become a finished product. Some exist simply to understand a problem, test an idea, or discover a better approach.
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=radical)
+
+<!-- GitHub Streak -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=krishanth7&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<!-- Profile Details + Activity Graph -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishanth7&theme=tokyonight" alt="Profile Details" />
+</p>
+
+<!-- Bottom Row: Stats + Commit Languages + Repo Languages -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishanth7&theme=tokyonight" height="180" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=tokyonight" height="180" alt="Top Languages by Commit" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=tokyonight" height="180" alt="Top Languages by Repo" />
+</p>
