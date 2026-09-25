@@ -8,7 +8,8 @@
 #
 set -euo pipefail
 
-readonly ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)" || exit 1
+readonly ROOT
 readonly DOCROOT="${ROOT}/profile"
 PORT="${1:-8000}"
 

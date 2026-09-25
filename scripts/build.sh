@@ -15,7 +15,8 @@
 #
 set -euo pipefail
 
-readonly ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)" || exit 1
+readonly ROOT
 readonly SRC="${ROOT}/profile/scss/main.scss"
 readonly OUT="${ROOT}/profile/css/main.css"
 

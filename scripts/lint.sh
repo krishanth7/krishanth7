@@ -14,7 +14,8 @@
 #
 set -uo pipefail
 
-readonly ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)" || exit 1
+readonly ROOT
 failures=0
 skipped=0
 

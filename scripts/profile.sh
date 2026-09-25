@@ -27,11 +27,11 @@ setup_colors() {
   if (( use_color )); then
     BOLD=$'\033[1m'; DIM=$'\033[2m'; RESET=$'\033[0m'
     BLUE=$'\033[38;5;39m'; PURPLE=$'\033[38;5;141m'
-    GREEN=$'\033[38;5;77m'; YELLOW=$'\033[38;5;179m'
+    GREEN=$'\033[38;5;77m'
     CYAN=$'\033[38;5;80m'; GREY=$'\033[38;5;245m'
   else
     BOLD=""; DIM=""; RESET=""
-    BLUE=""; PURPLE=""; GREEN=""; YELLOW=""; CYAN=""; GREY=""
+    BLUE=""; PURPLE=""; GREEN=""; CYAN=""; GREY=""
   fi
 }
 
