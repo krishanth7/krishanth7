@@ -2,8 +2,6 @@
 
 <img src="profile/card/card-matrix.svg" alt="Krishanth — AI/ML engineer. Uptime, location, company, focus, languages, contact links and GitHub metrics, rendered as a terminal status card." width="700">
 
-<sub>Rendered from live GitHub data by <code>./scripts/build-card.sh</code> · also available in <a href="profile/card/card-cyber.svg">cyber</a></sub>
-
 **AI/ML Engineer** &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Python &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; AI/ML
 
 [![GitHub](https://img.shields.io/badge/GitHub-krishanth7-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/krishanth7)
