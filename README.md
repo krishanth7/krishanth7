@@ -1,6 +1,4 @@
-<div align="center">
-
-<img src="profile/card/card-matrix.svg" alt="Krishanth — AI/ML engineer. Uptime, location, company, focus, languages, contact links and GitHub metrics, rendered as a terminal status card." width="700">
+Hi There
 
 **AI/ML Engineer** &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Python &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; AI/ML
 
