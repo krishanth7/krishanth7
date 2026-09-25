@@ -43,5 +43,15 @@ jobs:
           fi
           echo "Committed stylesheet matches the Sass sources."
 
+      - name: Verify the committed card matches its generator
+        run: |
+          ./scripts/build-card.sh --offline
+          if ! git diff --quiet -- profile/card/; then
+            echo "::error::The committed card is stale. Run ./scripts/build-card.sh --offline and commit the result."
+            git --no-pager diff --stat -- profile/card/
+            exit 1
+          fi
+          echo "Committed cards match the generator and the cached figures."
+
       - name: Render the terminal profile
         run: ./scripts/profile.sh --no-color

@@ -1,15 +1,8 @@
 <div align="center">
 
-```
-  ██╗  ██╗██████╗ ██╗███████╗██╗  ██╗ █████╗ ███╗   ██╗████████╗██╗  ██╗
-  ██║ ██╔╝██╔══██╗██║██╔════╝██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██║  ██║
-  █████╔╝ ██████╔╝██║███████╗███████║███████║██╔██╗ ██║   ██║   ███████║
-  ██╔═██╗ ██╔══██╗██║╚════██║██╔══██║██╔══██║██║╚██╗██║   ██║   ██╔══██║
-  ██║  ██╗██║  ██║██║███████║██║  ██║██║  ██║██║ ╚████║   ██║   ██║  ██║
-  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
+<img src="profile/card/card-matrix.svg" alt="Krishanth — AI/ML engineer. Uptime, location, company, focus, languages, contact links and GitHub metrics, rendered as a terminal status card." width="700">
 
-        F U L L   S T A C K   ·   A I / M L   ·   L A N G U A G E   D E S I G N
-```
+<sub>Rendered from live GitHub data by <code>./scripts/build-card.sh</code> · also available in <a href="profile/card/card-cyber.svg">cyber</a></sub>
 
 **Software Engineer** &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Python &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; AI/ML
 
@@ -150,8 +143,14 @@ understands and checks.
 ## ◈ This Repository
 
 This is my GitHub profile repository. Beyond the README, it contains a small
-production-quality profile site and the shell tooling that builds it — written in
-**HTML**, **Sass**, and **Bash**.
+production-quality profile site, the status card generator that renders the
+header above, and the tooling that builds them — written in **HTML**, **Sass**,
+**Bash**, and **Python**.
+
+The status card is generated from the live GitHub API, so the figures on it are
+real and refresh on a schedule rather than being hand-edited. When the API is
+unreachable the last known values in `stats.json` are reused, so the build never
+invents numbers and never fails offline.
 
 ```
 krishanth7/
@@ -165,14 +164,22 @@ krishanth7/
 │   │   ├── _components.scss     UI components (BEM-ish naming)
 │   │   └── main.scss            Entry point
 │   ├── css/main.css             Compiled stylesheet (committed; CI verifies freshness)
-│   └── js/main.js               Progressive enhancement — theme, reveal, nav state
-├── scripts/                     Shell tooling
+│   ├── js/main.js               Progressive enhancement — theme, reveal, nav state
+│   └── card/                    Generated status cards
+│       ├── card-matrix.svg      Matrix theme (shown above)
+│       ├── card-cyber.svg       Cyber theme
+│       └── stats.json           Last known GitHub figures (offline fallback)
+├── scripts/                     Tooling
 │   ├── profile.sh               Render this profile in the terminal
 │   ├── build.sh                 Compile Sass (compressed · dev · watch)
+│   ├── build-card.sh            Render the status cards
+│   ├── gen_card.py              Card renderer — live GitHub data to SVG
+│   ├── pixelfont.py             5x7 bitmap font for the pixel wordmark
 │   ├── serve.sh                 Serve the site locally
-│   └── lint.sh                  Shell, Sass, HTML and asset-reference checks
+│   └── lint.sh                  Shell, Sass, HTML, asset and card checks
 └── .github/workflows/
-    └── profile.yml              CI: lint, build, and stylesheet-freshness gate
+    ├── profile.yml              CI: lint, build, and freshness gates
+    └── refresh-card.yml         Daily card refresh from live GitHub data
 ```
 
 ### Quick Start
@@ -201,8 +208,11 @@ cd krishanth7
 | `./scripts/build.sh --dev` | Expanded build with source maps |
 | `./scripts/build.sh --watch` | Rebuild on change |
 | `./scripts/build.sh --check` | Verify the build toolchain |
+| `./scripts/build-card.sh` | Render both status cards from live GitHub data |
+| `./scripts/build-card.sh --offline` | Render from the cached figures, no network |
+| `./scripts/build-card.sh --theme cyber` | Render a single theme |
 | `./scripts/serve.sh [PORT]` | Static dev server (python3 · php · npx) |
-| `./scripts/lint.sh` | Shell syntax, ShellCheck, Sass, HTML, asset refs |
+| `./scripts/lint.sh` | Shell syntax, ShellCheck, Sass, HTML, assets, card |
 
 ### Requirements
 
@@ -210,7 +220,7 @@ cd krishanth7
 | :--- | :--- | :--- |
 | Bash 4+ | All scripts | Preinstalled on Linux/macOS |
 | [Dart Sass](https://sass-lang.com/install) | `build.sh`, Sass linting | `npm install -g sass` |
-| Python 3 *(or PHP / npx)* | `serve.sh` | Preinstalled on most systems |
+| Python 3 | `build-card.sh`, `serve.sh` | Preinstalled on most systems |
 | [ShellCheck](https://www.shellcheck.net) | Optional shell linting | `apt install shellcheck` |
 
 Every check in `lint.sh` degrades gracefully: missing optional tooling is reported
