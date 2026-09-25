@@ -1,0 +1,152 @@
+// =============================================================================
+//  _base.scss — Reset, root tokens and element defaults
+// =============================================================================
+@use "variables" as *;
+@use "mixins" as *;
+
+// -- Reset ---------------------------------------------------------------------
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+* { margin: 0; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+
+  @include reduced-motion { scroll-behavior: auto; }
+}
+
+// -- CSS custom properties (runtime theming) ----------------------------------
+:root {
+  --color-bg: #{$color-bg};
+  --color-bg-elevated: #{$color-bg-elevated};
+  --color-bg-inset: #{$color-bg-inset};
+  --color-border: #{$color-border};
+  --color-text: #{$color-text};
+  --color-text-muted: #{$color-text-muted};
+  --color-link: #{$color-link};
+  --color-primary: #{$brand-primary};
+  --color-secondary: #{$brand-secondary};
+  --color-accent: #{$brand-accent};
+
+  // Translucent backdrop for the sticky top bar; must track the theme.
+  --color-scrim: #{rgba($neutral-950, 0.72)};
+}
+
+:root[data-theme="light"] {
+  --color-bg: #{$neutral-000};
+  --color-bg-elevated: #f6f8fa;
+  --color-bg-inset: #eaeef2;
+  --color-border: #d0d7de;
+  --color-text: #1f2328;
+  --color-text-muted: #59636e;
+  --color-link: #0969da;
+  --color-scrim: #{rgba($neutral-000, 0.78)};
+}
+
+// -- Elements ------------------------------------------------------------------
+body {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: $font-sans;
+  font-size: $font-size-base;
+  line-height: $leading-base;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color $duration-base $ease-out, color $duration-base $ease-out;
+}
+
+h1, h2, h3, h4 {
+  font-weight: $weight-bold;
+  line-height: $leading-tight;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+h1 { font-size: fs("3xl"); }
+h2 { font-size: fs("2xl"); }
+h3 { font-size: fs("xl"); }
+h4 { font-size: fs("lg"); }
+
+p { text-wrap: pretty; }
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color $duration-fast $ease-out, opacity $duration-fast $ease-out;
+
+  &:hover { text-decoration: underline; }
+
+  @include focus-ring;
+}
+
+ul, ol { padding-inline-start: sp("6"); }
+
+code, pre, kbd, samp {
+  font-family: $font-mono;
+  font-size: 0.9em;
+}
+
+pre {
+  overflow-x: auto;
+  padding: sp("4");
+  background-color: var(--color-bg-inset);
+  border: 1px solid var(--color-border);
+  border-radius: $radius-md;
+  line-height: 1.45;
+}
+
+img, svg { display: block; max-width: 100%; height: auto; }
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: var(--color-border);
+  margin-block: sp("8");
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: 0;
+
+  @include focus-ring;
+}
+
+::selection {
+  background-color: rgba($brand-primary, 0.35);
+  color: $neutral-000;
+}
+
+// -- Scrollbar -----------------------------------------------------------------
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-bg-inset); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: $radius-pill;
+
+  &:hover { background: var(--color-text-muted); }
+}
+
+// -- Utilities -----------------------------------------------------------------
+.visually-hidden { @include visually-hidden; }
+
+.skip-link {
+  position: absolute;
+  top: sp("2");
+  left: sp("2");
+  z-index: 100;
+  padding: sp("2") sp("4");
+  background-color: var(--color-primary);
+  color: $neutral-000;
+  border-radius: $radius-sm;
+  transform: translateY(-200%);
+  transition: transform $duration-fast $ease-out;
+
+  &:focus { transform: translateY(0); }
+}
