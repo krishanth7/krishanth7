@@ -1,0 +1,519 @@
+// =============================================================================
+//  _components.scss — UI components (BEM-ish naming)
+// =============================================================================
+@use "sass:color";
+@use "variables" as *;
+@use "mixins" as *;
+
+// -- Top bar -------------------------------------------------------------------
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+  background-color: var(--color-scrim);
+  border-bottom: 1px solid var(--color-border);
+
+  &__inner {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    gap: sp("4");
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: sp("2");
+    font-family: $font-mono;
+    font-weight: $weight-bold;
+    color: var(--color-text);
+
+    &:hover { text-decoration: none; }
+  }
+
+  &__nav {
+    display: none;
+    gap: sp("6");
+
+    @include respond("md") { display: flex; }
+  }
+
+  &__link {
+    font-size: fs("sm");
+    color: var(--color-text-muted);
+
+    &:hover,
+    &[aria-current="page"] {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+  }
+}
+
+// -- Theme toggle --------------------------------------------------------------
+.theme-toggle {
+  @include flex-center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--color-border);
+  border-radius: $radius-md;
+  color: var(--color-text-muted);
+  transition: color $duration-fast $ease-out, border-color $duration-fast $ease-out;
+
+  &:hover {
+    color: var(--color-text);
+    border-color: var(--color-text-muted);
+  }
+}
+
+// -- Hero ----------------------------------------------------------------------
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-block: sp("16") sp("12");
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(60% 70% at 15% 0%, rgba($brand-primary, 0.16), transparent 70%),
+      radial-gradient(50% 60% at 85% 10%, rgba($brand-secondary, 0.14), transparent 70%);
+    pointer-events: none;
+  }
+
+  &__inner {
+    @include container;
+    position: relative;
+    display: grid;
+    gap: sp("8");
+    align-items: center;
+
+    @include respond("lg") { grid-template-columns: 1.05fr 0.95fr; }
+  }
+
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: sp("2");
+    font-family: $font-mono;
+    font-size: fs("xs");
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  &__title {
+    margin-block: sp("3") sp("3");
+    font-size: fs("3xl");
+
+    @include respond("md") { font-size: fs("4xl"); }
+  }
+
+  &__accent { @include gradient-text; }
+
+  &__role {
+    font-family: $font-mono;
+    font-size: fs("lg");
+    color: var(--color-accent);
+    margin-bottom: sp("4");
+  }
+
+  &__lede {
+    max-width: 56ch;
+    color: var(--color-text-muted);
+    font-size: fs("lg");
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: sp("3");
+    margin-top: sp("8");
+  }
+}
+
+// -- Terminal card -------------------------------------------------------------
+.terminal {
+  @include surface(var(--color-bg-inset));
+  @include elevate("lg");
+  overflow: hidden;
+  font-family: $font-mono;
+  font-size: fs("sm");
+
+  &__chrome {
+    display: flex;
+    align-items: center;
+    gap: sp("2");
+    padding: sp("3") sp("4");
+    background-color: var(--color-bg-elevated);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  &__dot {
+    width: 11px;
+    height: 11px;
+    border-radius: $radius-pill;
+
+    &--red   { background-color: $brand-danger; }
+    &--amber { background-color: $brand-warning; }
+    &--green { background-color: $brand-accent; }
+  }
+
+  &__title {
+    margin-left: sp("2");
+    font-size: fs("xs");
+    color: var(--color-text-muted);
+  }
+
+  &__body {
+    padding: sp("4");
+    line-height: 1.7;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  &__prompt { color: var(--color-accent); }
+  &__flag   { color: var(--color-secondary); }
+  &__out    { color: var(--color-text-muted); }
+
+  &__cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1em;
+    vertical-align: text-bottom;
+    background-color: var(--color-accent);
+    animation: blink 1.1s steps(2, start) infinite;
+
+    @include reduced-motion { animation: none; }
+  }
+}
+
+@keyframes blink {
+  to { visibility: hidden; }
+}
+
+// -- Buttons -------------------------------------------------------------------
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: sp("2");
+  padding: sp("3") sp("6");
+  font-size: fs("sm");
+  font-weight: $weight-medium;
+  border: 1px solid transparent;
+  border-radius: $radius-md;
+  transition: transform $duration-fast $ease-out, background-color $duration-fast $ease-out,
+              border-color $duration-fast $ease-out;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  @include reduced-motion {
+    &:hover { transform: none; }
+  }
+
+  &--primary {
+    background-color: $brand-primary;
+    color: $neutral-000;
+
+    &:hover { background-color: color.adjust($brand-primary, $lightness: -7%); }
+  }
+
+  &--ghost {
+    background-color: transparent;
+    border-color: var(--color-border);
+    color: var(--color-text);
+
+    &:hover { border-color: var(--color-text-muted); }
+  }
+}
+
+// -- Section -------------------------------------------------------------------
+.section {
+  padding-block: sp("16");
+
+  &__inner { @include container; }
+
+  &__head {
+    max-width: 60ch;
+    margin-bottom: sp("8");
+  }
+
+  &__kicker {
+    font-family: $font-mono;
+    font-size: fs("xs");
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+  }
+
+  &__title { margin-top: sp("2"); }
+
+  &__sub {
+    margin-top: sp("3");
+    color: var(--color-text-muted);
+  }
+
+  &--inset { background-color: var(--color-bg-elevated); }
+}
+
+// -- Cards ---------------------------------------------------------------------
+.card-grid { @include grid-auto(280px, sp("4")); }
+
+.card {
+  @include surface;
+  padding: sp("6");
+  transition: border-color $duration-base $ease-out, transform $duration-base $ease-out;
+
+  &:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-3px);
+  }
+
+  @include reduced-motion {
+    &:hover { transform: none; }
+  }
+
+  &__icon {
+    @include flex-center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: sp("4");
+    font-size: fs("lg");
+    background-color: rgba($brand-primary, 0.12);
+    border-radius: $radius-md;
+  }
+
+  &__title { font-size: fs("lg"); }
+
+  &__body {
+    margin-top: sp("2");
+    font-size: fs("sm");
+    color: var(--color-text-muted);
+  }
+
+  &__list {
+    margin-top: sp("4");
+    padding-left: sp("4");
+    font-size: fs("sm");
+    color: var(--color-text-muted);
+
+    li + li { margin-top: sp("1"); }
+  }
+}
+
+// -- Skill meters --------------------------------------------------------------
+.skills { @include grid-auto(320px, sp("6")); }
+
+.skill {
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: fs("sm");
+    margin-bottom: sp("2");
+  }
+
+  &__name { font-weight: $weight-medium; }
+
+  &__level {
+    font-family: $font-mono;
+    font-size: fs("xs");
+    color: var(--color-text-muted);
+  }
+
+  &__track {
+    height: 6px;
+    background-color: var(--color-bg-inset);
+    border: 1px solid var(--color-border);
+    border-radius: $radius-pill;
+    overflow: hidden;
+  }
+
+  &__fill {
+    height: 100%;
+    width: var(--level, 0%);
+    background: linear-gradient(90deg, $brand-primary, $brand-secondary);
+    border-radius: $radius-pill;
+    transition: width 900ms $ease-out;
+
+    @include reduced-motion { transition: none; }
+  }
+}
+
+// -- Tag / chip ----------------------------------------------------------------
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: sp("2");
+}
+
+.tag {
+  padding: sp("1") sp("3");
+  font-family: $font-mono;
+  font-size: fs("xs");
+  color: var(--color-text-muted);
+  background-color: var(--color-bg-inset);
+  border: 1px solid var(--color-border);
+  border-radius: $radius-pill;
+
+  &--primary {
+    color: $brand-primary;
+    border-color: rgba($brand-primary, 0.4);
+    background-color: rgba($brand-primary, 0.1);
+  }
+}
+
+// -- Metrics -------------------------------------------------------------------
+.metrics {
+  @include grid-auto(180px, sp("4"));
+  margin-top: sp("8");
+}
+
+.metric {
+  @include surface(transparent);
+  padding: sp("6");
+  text-align: center;
+
+  &__value {
+    @include gradient-text;
+    font-family: $font-mono;
+    font-size: fs("2xl");
+    font-weight: $weight-bold;
+  }
+
+  &__label {
+    margin-top: sp("1");
+    font-size: fs("xs");
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+}
+
+// -- Timeline ------------------------------------------------------------------
+.timeline {
+  list-style: none;
+  padding: 0;
+  border-left: 1px solid var(--color-border);
+
+  &__item {
+    position: relative;
+    padding: 0 0 sp("8") sp("6");
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -5px;
+      top: 6px;
+      width: 9px;
+      height: 9px;
+      background-color: var(--color-primary);
+      border-radius: $radius-pill;
+    }
+
+    &:last-child { padding-bottom: 0; }
+  }
+
+  &__when {
+    font-family: $font-mono;
+    font-size: fs("xs");
+    color: var(--color-text-muted);
+  }
+
+  &__what {
+    margin-top: sp("1");
+    font-size: fs("lg");
+    font-weight: $weight-medium;
+  }
+
+  &__note {
+    margin-top: sp("1");
+    font-size: fs("sm");
+    color: var(--color-text-muted);
+  }
+}
+
+// -- Feature banner (Cretes) ---------------------------------------------------
+.banner {
+  @include surface;
+  position: relative;
+  overflow: hidden;
+  padding: sp("8");
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(70% 120% at 100% 0%, rgba($brand-secondary, 0.18), transparent 65%);
+    pointer-events: none;
+  }
+
+  &__inner {
+    position: relative;
+    display: grid;
+    gap: sp("6");
+
+    @include respond("lg") { grid-template-columns: 1fr 1fr; align-items: center; }
+  }
+
+  &__ascii {
+    padding: 0;
+    font-family: $font-mono;
+    font-size: fs("xs");
+    line-height: 1.15;
+    color: var(--color-secondary);
+    white-space: pre;
+    overflow-x: auto;
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+// -- Footer --------------------------------------------------------------------
+.footer {
+  padding-block: sp("8");
+  border-top: 1px solid var(--color-border);
+
+  &__inner {
+    @include container;
+    display: flex;
+    flex-wrap: wrap;
+    gap: sp("4");
+    justify-content: space-between;
+    align-items: center;
+    font-size: fs("sm");
+    color: var(--color-text-muted);
+  }
+
+  &__links {
+    display: flex;
+    gap: sp("4");
+  }
+}
+
+// -- Reveal on scroll ----------------------------------------------------------
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity $duration-base $ease-out, transform $duration-base $ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @include reduced-motion {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

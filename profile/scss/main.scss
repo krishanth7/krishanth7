@@ -1,0 +1,15 @@
+// =============================================================================
+//  main.scss — Entry point
+//
+//  Architecture (ITCSS-inspired):
+//    1. variables  — design tokens
+//    2. mixins     — functions and mixins
+//    3. base       — reset, root custom properties, element defaults
+//    4. components — discrete UI blocks
+//
+//  Build: ./scripts/build.sh   (sass --style=compressed)
+// =============================================================================
+@use "variables";
+@use "mixins";
+@use "base";
+@use "components";
