@@ -119,12 +119,57 @@ check_links() {
   (( missing == 0 )) && pass "all local asset references resolve"
 }
 
+# --- profile card -------------------------------------------------------------
+check_card() {
+  head_ "card"
+  local card
+  local found=0
+  for card in "$ROOT"/profile/card/card-*.svg; do
+    [[ -e "$card" ]] || continue
+    found=1
+    if python3 -c "import sys,xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$card" 2>/dev/null; then
+      pass "well-formed XML: ${card#"$ROOT"/}"
+    else
+      fail "malformed SVG: ${card#"$ROOT"/}"
+    fi
+  done
+  (( found )) || fail "no rendered cards in profile/card — run ./scripts/build-card.sh"
+
+  if [[ -f "$ROOT/profile/card/stats.json" ]]; then
+    if python3 -c "import json,sys; json.load(open(sys.argv[1]))" \
+         "$ROOT/profile/card/stats.json" 2>/dev/null; then
+      pass "stats cache is valid JSON"
+    else
+      fail "profile/card/stats.json is not valid JSON"
+    fi
+  else
+    fail "profile/card/stats.json is missing"
+  fi
+
+  # The card is generated; a stale commit would show wrong figures. Re-render
+  # from the cache and compare, which needs no network.
+  local tmp
+  tmp="$(mktemp -d)"
+  if "$ROOT/scripts/gen_card.py" --offline --theme matrix \
+       --out "$tmp/card-matrix.svg" >/dev/null 2>&1; then
+    if diff -q "$tmp/card-matrix.svg" "$ROOT/profile/card/card-matrix.svg" >/dev/null 2>&1; then
+      pass "committed card matches its generator"
+    else
+      fail "profile/card/card-matrix.svg is stale — run ./scripts/build-card.sh --offline"
+    fi
+  else
+    fail "gen_card.py failed to render"
+  fi
+  rm -rf "$tmp"
+}
+
 main() {
   printf '\033[1mlint.sh — repository checks\033[0m\n'
   check_shell
   check_sass
   check_html
   check_links
+  check_card
 
   printf '\n'
   if (( failures > 0 )); then
