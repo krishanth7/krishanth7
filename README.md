@@ -2,7 +2,9 @@
 <!-- ===================================================== -->
 <!-- KRISHANTH | GITHUB PROFILE README                    -->
 <!-- MINIMAL CORPORATE / EXECUTIVE BLUE                    -->
+<!-- PRIMARY: #2563EB | NAVY: #0F172A | STARS: #FFD700     -->
 <!-- ===================================================== -->
+
 
 <!-- SECTION 01 — INTRODUCTION -->
 
@@ -36,29 +38,31 @@ Building open-source technologies across AI, reverse engineering, programming la
 
 ---
 
-<!-- SECTION 03 — GITHUB ACTIVITY -->
+<!-- SECTION 03 — LANGUAGES & CONTRIBUTIONS -->
 
-### GitHub Activity
+### Languages & Contributions
 
-Open-source development, continuous experimentation, and engineering contributions.
+**Most Used Languages**
 
-<p>
-  <a href="https://github.com/krishanth7">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=krishanth7&show_icons=true&hide_border=true&bg_color=00000000&title_color=2563EB&icon_color=2563EB&text_color=64748B&include_all_commits=true&rank_icon=github"
-      alt="Krishanth GitHub statistics"
-      height="165"
-    />
-  </a>
-  <a href="https://github.com/krishanth7">
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishanth7&layout=compact&hide_border=true&bg_color=00000000&title_color=2563EB&text_color=64748B&langs_count=6"
-      alt="Most used repository languages"
-      height="165"
-    />
-  </a>
+<p align="left">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=github"
+    alt="Top programming languages by repository"
+    height="165"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=github"
+    alt="Top programming languages by commits"
+    height="165"
+  />
 </p>
+
+**Contribution Activity**
+
+[![GitHub Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=krishanth7&bg_color=ffffff&color=2563EB&line=2563EB&point=0F172A&area=true&area_color=DBEAFE&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/krishanth7)
 
 ---
 
-<!-- END SECTIONS 01 + 02 + 03 -->
+<!-- ===================================================== -->
+<!-- END OF PROFILE README                                -->
+<!-- ===================================================== -->
