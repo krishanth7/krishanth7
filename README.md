@@ -57,27 +57,22 @@ Building open-source technologies across AI, reverse engineering, programming la
 ---
 
 
-<!-- ===================================================== -->
-<!-- SECTION 04 — OPEN SOURCE & COLLABORATION              -->
-<!-- MINIMAL CORPORATE / EXECUTIVE BLUE                    -->
-<!-- ===================================================== -->
+<!-- SECTION 04 — OPEN SOURCE & COLLABORATION -->
 
 ### Open Source & Collaboration
 
-I build and maintain projects with an emphasis on **open development, technical quality, and long-term sustainability**.
+Building open-source technologies through **independent research, practical engineering, and community collaboration**.
 
-- **Open Source** — Building accessible tools, frameworks, and developer infrastructure.
-- **Engineering** — Exploring AI systems, compiler design, and deterministic software.
-- **Collaboration** — Welcoming thoughtful discussions, technical feedback, and contributions.
-- **Research** — Turning independent ideas into practical engineering projects.
+- **Development** — Open-source frameworks, tools, and infrastructure.
+- **Research** — AI, autonomous systems, compilers, and reverse engineering.
+- **Collaboration** — Technical discussions, feedback, and contributions.
 
 **Explore & Connect**
 
 [![Repositories](https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7?tab=repositories)
 [![Discussions](https://img.shields.io/badge/Join-Discussions-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7/dera/discussions)
-[![Sponsor](https://img.shields.io/badge/Support-Open_Source-2563EB?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/krishanth7)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Support_My_Work-EA4AAA?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/krishanth7)
 [![X](https://img.shields.io/badge/Connect-on_X-0F172A?style=flat&logo=x&logoColor=white)](https://x.com/krishanthb7)
 
 ---
-
 <!-- END SECTION 04 -->
