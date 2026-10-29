@@ -41,122 +41,172 @@ I believe in **open development, independent thinking, and building technologies
 <!-- END SECTION 01 -->
 
 
+
+
 <!-- ====================================================== -->
-<!-- SECTION 02 — FEATURED ENGINEERING PROJECTS            -->
-<!-- EXECUTIVE CORPORATE / OPEN SOURCE PORTFOLIO           -->
+<!-- SECTION 02 / FEATURED ENGINEERING                     -->
+<!-- DESIGN: EXECUTIVE CORPORATE                           -->
+<!-- ACCENT: #2563EB | STARS: #FFD700                       -->
 <!-- ====================================================== -->
 
-### Featured Engineering Projects
+<br>
 
-A selection of open-source projects focused on machine learning,
-reverse engineering, programming languages, and developer infrastructure.
+### Featured Engineering
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A selection of projects exploring **artificial intelligence, reverse engineering, programming languages, and intelligent software infrastructure**.
 
-### [EveryO](https://github.com/krishanth7/EveryO)
+<br>
 
-**Machine Learning & Neural Network Framework**
+<table width="100%" cellspacing="0" cellpadding="16">
+  <tr>
+    <td width="50%" valign="top">
 
-An open-source framework for exploring neural networks,
-automatic differentiation, model training, and machine
-learning workflows.
+<h3>
+  <a href="https://github.com/krishanth7/EveryO">EveryO</a>
+</h3>
 
-**Focus:** Machine Learning · Neural Networks · AI Infrastructure
+<sub><b>MACHINE LEARNING FRAMEWORK</b></sub>
 
-[![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/EveryO)
-[![Forks](https://img.shields.io/github/forks/krishanth7/EveryO?style=flat&label=Forks&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/EveryO/forks)
+<br><br>
 
-[**View Repository →**](https://github.com/krishanth7/EveryO)
+An open-source framework for neural networks, automatic differentiation, model training, and machine learning experimentation.
 
-</td>
-<td width="50%" valign="top">
+<br><br>
 
-### [DERA](https://github.com/krishanth7/dera)
+<sub><b>ENGINEERING FOCUS</b></sub>
 
-**Deterministic Reverse Engineering Platform**
+<br>
 
-An engineering platform exploring deterministic analysis,
-database schema reconstruction, dependency mapping,
-and structured reverse engineering workflows.
+<code>Neural Networks</code>
+<code>Autograd</code>
+<code>Machine Learning</code>
 
-**Focus:** Reverse Engineering · Databases · Developer Tools
+<br><br>
 
-[![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/dera)
-[![Forks](https://img.shields.io/github/forks/krishanth7/dera?style=flat&label=Forks&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/dera/forks)
+<a href="https://github.com/krishanth7/EveryO">
+  <img src="https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=FFD700" alt="EveryO Stars">
+</a>
+<a href="https://github.com/krishanth7/EveryO/forks">
+  <img src="https://img.shields.io/github/forks/krishanth7/EveryO?style=flat&label=Forks&labelColor=0F172A&color=2563EB" alt="EveryO Forks">
+</a>
 
-[**View Repository →**](https://github.com/krishanth7/dera)
+<br><br>
 
-</td>
-</tr>
+<a href="https://github.com/krishanth7/EveryO"><b>Explore repository →</b></a>
 
-<tr>
-<td width="50%" valign="top">
-
-### [Cretes](https://github.com/Cretes-lang)
-
-**Programming Language & Developer Ecosystem**
-
-An independent programming language initiative focused
-on language design, compiler architecture, parsing,
-diagnostics, and developer tooling.
-
-**Focus:** Language Design · Compilers · Tooling
-
-[![Organization](https://img.shields.io/badge/GitHub-Organization-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/Cretes-lang)
-![Development](https://img.shields.io/badge/Status-In_Development-2563EB?style=flat)
-
-[**Explore Project →**](https://github.com/Cretes-lang)
+<br>
 
 </td>
 <td width="50%" valign="top">
 
-### OperatSI
+<h3>
+  <a href="https://github.com/krishanth7/dera">DERA</a>
+</h3>
 
-**AI-Native Enterprise Work Platform**
+<sub><b>DETERMINISTIC REVERSE ENGINEERING</b></sub>
 
-An AI-driven workspace initiative exploring autonomous
-agents, business workflows, task orchestration,
-and enterprise productivity infrastructure.
+<br><br>
 
-**Focus:** AI Agents · Workflow Automation · Enterprise Systems
+A reverse engineering platform focused on database reconstruction, dependency analysis, metadata normalization, and deterministic workflows.
 
-![Category](https://img.shields.io/badge/Category-AI_Platform-0F172A?style=flat)
-![Development](https://img.shields.io/badge/Status-In_Development-2563EB?style=flat)
+<br><br>
 
-**Project:** OVIC Labs
+<sub><b>ENGINEERING FOCUS</b></sub>
+
+<br>
+
+<code>Reverse Engineering</code>
+<code>Databases</code>
+<code>Infrastructure</code>
+
+<br><br>
+
+<a href="https://github.com/krishanth7/dera">
+  <img src="https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=FFD700" alt="DERA Stars">
+</a>
+<a href="https://github.com/krishanth7/dera/forks">
+  <img src="https://img.shields.io/github/forks/krishanth7/dera?style=flat&label=Forks&labelColor=0F172A&color=2563EB" alt="DERA Forks">
+</a>
+
+<br><br>
+
+<a href="https://github.com/krishanth7/dera"><b>Explore repository →</b></a>
+
+<br>
 
 </td>
-</tr>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+<h3>
+  <a href="https://github.com/Cretes-lang">Cretes</a>
+</h3>
+
+<sub><b>PROGRAMMING LANGUAGE DEVELOPMENT</b></sub>
+
+<br><br>
+
+A programming language initiative exploring language architecture, lexical analysis, parsing, diagnostics, and developer tooling.
+
+<br><br>
+
+<sub><b>ENGINEERING FOCUS</b></sub>
+
+<br>
+
+<code>Compilers</code>
+<code>Language Design</code>
+<code>Tooling</code>
+
+<br><br>
+
+<a href="https://github.com/Cretes-lang">
+  <img src="https://img.shields.io/badge/GitHub-Organization-0F172A?style=flat&logo=github&logoColor=white" alt="Cretes Organization">
+</a>
+
+<br><br>
+
+<a href="https://github.com/Cretes-lang"><b>Explore organization →</b></a>
+
+<br>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>OperatSI</h3>
+
+<sub><b>AI-NATIVE WORKFLOW PLATFORM</b></sub>
+
+<br><br>
+
+An AI-driven enterprise workspace exploring autonomous agents, workflow orchestration, task management, and intelligent business operations.
+
+<br><br>
+
+<sub><b>ENGINEERING FOCUS</b></sub>
+
+<br>
+
+<code>AI Agents</code>
+<code>Automation</code>
+<code>Enterprise Systems</code>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Development-Active-2563EB?style=flat" alt="In Development">
+
+<br><br>
+
+<sub>Developed under OVIC Labs</sub>
+
+<br>
+
+</td>
+  </tr>
 </table>
 
----
-
-### Engineering Approach
-
-```text
-RESEARCH
-   │
-   ▼
-SYSTEM DESIGN
-   │
-   ▼
-IMPLEMENTATION
-   │
-   ▼
-TESTING & VALIDATION
-   │
-   ▼
-OPEN-SOURCE DEVELOPMENT
-```
-
-My approach centers on understanding systems at a
-fundamental level, designing clear architectures,
-and developing practical implementations.
-
-I value maintainable code, reproducible engineering,
-transparent development, and long-term project quality.
+<br>
 
 ---
 
