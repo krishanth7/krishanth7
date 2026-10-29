@@ -1,7 +1,8 @@
 
 <!-- ====================================================== -->
-<!-- KRISHANTH | OFFICIAL GITHUB PROFILE                    -->
-<!-- CORPORATE IDENTITY / EXECUTIVE BLUE                    -->
+<!-- KRISHANTH | GITHUB PROFILE README                     -->
+<!-- SECTION 01 — EXECUTIVE CORPORATE EDITION              -->
+<!-- ACCENT: #2563EB | STARS: #FFD700                       -->
 <!-- ====================================================== -->
 
 ### Hey, I'm Krishanth
@@ -21,9 +22,9 @@ I believe in **open development, independent thinking, and building technologies
 
 #### Building
 
-- **[EveryO](https://github.com/krishanth7/EveryO)**  — An open-source machine learning and neural network framework.[![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/EveryO)
+- **[EveryO](https://github.com/krishanth7/EveryO)** — An open-source machine learning and neural network framework.[![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/EveryO) 
 
-- **[DERA](https://github.com/krishanth7/dera)** [![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/dera) — Deterministic reverse engineering and data infrastructure.
+- **[DERA](https://github.com/krishanth7/dera)**  — Deterministic reverse engineering and data infrastructure.[![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/dera)
 
 - **[Cretes](https://github.com/Cretes-lang)** — A programming language project focused on language development and tooling.
 
@@ -37,3 +38,4 @@ I believe in **open development, independent thinking, and building technologies
 
 ---
 
+<!-- END SECTION 01 -->
