@@ -38,6 +38,7 @@ Building open-source technologies across AI, reverse engineering, programming la
 
 ---
 
+
 <!-- SECTION 03 — LANGUAGES & CONTRIBUTIONS -->
 
 ### Languages & Contributions
@@ -45,24 +46,13 @@ Building open-source technologies across AI, reverse engineering, programming la
 **Most Used Languages**
 
 <p align="left">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=github"
-    alt="Top programming languages by repository"
-    height="165"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=github"
-    alt="Top programming languages by commits"
-    height="165"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=github" height="165" alt="Top languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=github" height="165" alt="Most committed languages"/>
 </p>
 
 **Contribution Activity**
 
-[![GitHub Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=krishanth7&bg_color=ffffff&color=2563EB&line=2563EB&point=0F172A&area=true&area_color=DBEAFE&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/krishanth7)
+[![GitHub Contributions](https://ghchart.rshah.org/2563EB/krishanth7)](https://github.com/krishanth7)
 
 ---
 
-<!-- ===================================================== -->
-<!-- END OF PROFILE README                                -->
-<!-- ===================================================== -->
