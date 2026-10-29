@@ -1,44 +1,48 @@
 
-<!-- ===================================================== -->
-<!-- KRISHANTH | GITHUB PROFILE README                     -->
-<!-- SECTION 01 — CORPORATE ENGINEERING                    -->
-<!-- ===================================================== -->
+<!-- =================================================== -->
+<!-- KRISHANTH — GITHUB PROFILE                          -->
+<!-- SECTION 01 / CORPORATE ENGINEERING                  -->
+<!-- =================================================== -->
 
 ### Hey, I'm Krishanth
 
-**Founder · Software Engineer · Open Source Builder**
+**Founder · Software Engineer · Open Source Developer**
 
-[![X](https://img.shields.io/badge/X-@krishanthb7-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/krishanthb7)
-[![GitHub](https://img.shields.io/badge/GitHub-krishanth7-6366F1?style=flat-square&logo=github&logoColor=white)](https://github.com/krishanth7)
-![Profile Views](https://komarev.com/ghpvc/?username=krishanth7&label=Profile%20Views&color=0EA5E9&style=flat-square)
-[![Followers](https://img.shields.io/github/followers/krishanth7?label=Followers&style=flat-square&color=10B981&logo=github)](https://github.com/krishanth7?tab=followers)
+[![GitHub](https://img.shields.io/badge/GitHub-krishanth7-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/krishanth7)
+[![X](https://img.shields.io/badge/X-@krishanthb7-24292F?style=flat-square&logo=x&logoColor=white)](https://x.com/krishanthb7)
+[![Followers](https://img.shields.io/github/followers/krishanth7?style=flat-square&label=Followers&labelColor=30363D&color=64748B&logo=github&logoColor=white)](https://github.com/krishanth7?tab=followers)
+![Profile Views](https://komarev.com/ghpvc/?username=krishanth7&label=Profile%20Views&color=64748B&style=flat-square)
 
-I'm a founder and software engineer focused on building **intelligent systems, developer infrastructure, programming languages, and open-source technologies**.
+I'm a founder and software engineer working on **artificial intelligence, developer infrastructure, programming languages, and open-source systems**.
 
-My work spans **artificial intelligence, autonomous robotics, reverse engineering, and software systems**, with an emphasis on practical engineering, technical depth, and long-term reliability.
+My interests include autonomous robotics, reverse engineering, machine learning, and building reliable software from first principles.
 
-I enjoy building technologies from first principles, exploring complex engineering challenges, and developing tools that other developers can use and extend.
+I focus on turning ambitious technical ideas into practical engineering projects.
 
-#### Currently Building
+#### Selected Projects
 
-- **[EveryO](https://github.com/krishanth7/EveryO)** [![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat-square&label=Stars&color=F59E0B&logo=github)](https://github.com/krishanth7/EveryO) — An open-source machine learning and neural network framework.
+**[EveryO](https://github.com/krishanth7/EveryO)**
+[![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat-square&label=Stars&labelColor=30363D&color=B68A46&logo=github&logoColor=white)](https://github.com/krishanth7/EveryO)
+[![Forks](https://img.shields.io/github/forks/krishanth7/EveryO?style=flat-square&label=Forks&labelColor=30363D&color=64748B)](https://github.com/krishanth7/EveryO/forks)
 
-- **[DERA](https://github.com/krishanth7/dera)** [![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat-square&label=Stars&color=F59E0B&logo=github)](https://github.com/krishanth7/dera) — Deterministic reverse engineering and data infrastructure.
+Open-source machine learning and neural network framework.
 
-- **[Cretes](https://github.com/Cretes-lang)** — A programming language and developer tooling ecosystem.
+**[DERA](https://github.com/krishanth7/dera)**
+[![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat-square&label=Stars&labelColor=30363D&color=B68A46&logo=github&logoColor=white)](https://github.com/krishanth7/dera)
+[![Forks](https://img.shields.io/github/forks/krishanth7/dera?style=flat-square&label=Forks&labelColor=30363D&color=64748B)](https://github.com/krishanth7/dera/forks)
 
-#### Engineering Interests
+Deterministic reverse engineering and data infrastructure.
 
-![AI](https://img.shields.io/badge/Artificial_Intelligence-6366F1?style=flat-square&logoColor=white)
-![Robotics](https://img.shields.io/badge/Robotics-0891B2?style=flat-square&logoColor=white)
-![Systems](https://img.shields.io/badge/Systems_Engineering-0F766E?style=flat-square&logoColor=white)
-![Languages](https://img.shields.io/badge/Programming_Languages-7C3AED?style=flat-square&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open_Source-F97316?style=flat-square&logo=opensourceinitiative&logoColor=white)
+**[Cretes](https://github.com/Cretes-lang)**
 
-#### GitHub Activity
+Programming language and developer tooling ecosystem.
 
-![GitHub Stars](https://img.shields.io/github/stars/krishanth7?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&label=Total%20Stars&color=F59E0B)
-![Profile Views](https://komarev.com/ghpvc/?username=krishanth7&label=Profile%20Views&color=0EA5E9&style=flat-square)
+#### Technical Focus
+
+![AI](https://img.shields.io/badge/Artificial%20Intelligence-334155?style=flat-square)
+![Robotics](https://img.shields.io/badge/Robotics-334155?style=flat-square)
+![Systems](https://img.shields.io/badge/Systems%20Engineering-334155?style=flat-square)
+![Developer Tools](https://img.shields.io/badge/Developer%20Tools-334155?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open%20Source-334155?style=flat-square)
 
 ---
-
