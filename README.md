@@ -39,3 +39,126 @@ I believe in **open development, independent thinking, and building technologies
 ---
 
 <!-- END SECTION 01 -->
+
+
+<!-- ====================================================== -->
+<!-- SECTION 02 — FEATURED ENGINEERING PROJECTS            -->
+<!-- EXECUTIVE CORPORATE / OPEN SOURCE PORTFOLIO           -->
+<!-- ====================================================== -->
+
+### Featured Engineering Projects
+
+A selection of open-source projects focused on machine learning,
+reverse engineering, programming languages, and developer infrastructure.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [EveryO](https://github.com/krishanth7/EveryO)
+
+**Machine Learning & Neural Network Framework**
+
+An open-source framework for exploring neural networks,
+automatic differentiation, model training, and machine
+learning workflows.
+
+**Focus:** Machine Learning · Neural Networks · AI Infrastructure
+
+[![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/EveryO)
+[![Forks](https://img.shields.io/github/forks/krishanth7/EveryO?style=flat&label=Forks&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/EveryO/forks)
+
+[**View Repository →**](https://github.com/krishanth7/EveryO)
+
+</td>
+<td width="50%" valign="top">
+
+### [DERA](https://github.com/krishanth7/dera)
+
+**Deterministic Reverse Engineering Platform**
+
+An engineering platform exploring deterministic analysis,
+database schema reconstruction, dependency mapping,
+and structured reverse engineering workflows.
+
+**Focus:** Reverse Engineering · Databases · Developer Tools
+
+[![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/dera)
+[![Forks](https://img.shields.io/github/forks/krishanth7/dera?style=flat&label=Forks&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7/dera/forks)
+
+[**View Repository →**](https://github.com/krishanth7/dera)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Cretes](https://github.com/Cretes-lang)
+
+**Programming Language & Developer Ecosystem**
+
+An independent programming language initiative focused
+on language design, compiler architecture, parsing,
+diagnostics, and developer tooling.
+
+**Focus:** Language Design · Compilers · Tooling
+
+[![Organization](https://img.shields.io/badge/GitHub-Organization-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/Cretes-lang)
+![Development](https://img.shields.io/badge/Status-In_Development-2563EB?style=flat)
+
+[**Explore Project →**](https://github.com/Cretes-lang)
+
+</td>
+<td width="50%" valign="top">
+
+### OperatSI
+
+**AI-Native Enterprise Work Platform**
+
+An AI-driven workspace initiative exploring autonomous
+agents, business workflows, task orchestration,
+and enterprise productivity infrastructure.
+
+**Focus:** AI Agents · Workflow Automation · Enterprise Systems
+
+![Category](https://img.shields.io/badge/Category-AI_Platform-0F172A?style=flat)
+![Development](https://img.shields.io/badge/Status-In_Development-2563EB?style=flat)
+
+**Project:** OVIC Labs
+
+</td>
+</tr>
+</table>
+
+---
+
+### Engineering Approach
+
+```text
+RESEARCH
+   │
+   ▼
+SYSTEM DESIGN
+   │
+   ▼
+IMPLEMENTATION
+   │
+   ▼
+TESTING & VALIDATION
+   │
+   ▼
+OPEN-SOURCE DEVELOPMENT
+```
+
+My approach centers on understanding systems at a
+fundamental level, designing clear architectures,
+and developing practical implementations.
+
+I value maintainable code, reproducible engineering,
+transparent development, and long-term project quality.
+
+---
+
+<!-- END SECTION 02 -->
+
