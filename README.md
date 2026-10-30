@@ -57,6 +57,7 @@ Building open-source technologies across AI, reverse engineering, programming la
 ---
 
 
+
 <!-- SECTION 04 — OPEN SOURCE & COLLABORATION -->
 
 ### Open Source & Collaboration
@@ -70,7 +71,7 @@ Building open-source technologies through **independent research, practical engi
 **Explore & Connect**
 
 [![Repositories](https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7?tab=repositories)
-[![Discussions](https://img.shields.io/badge/Join-Discussions-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7/dera/discussions)
+[![Discussions](https://img.shields.io/badge/Join-Discussions-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7/krishanth7/discussions)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support_My_Work-EA4AAA?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/krishanth7)
 [![X](https://img.shields.io/badge/Connect-on_X-0F172A?style=flat&logo=x&logoColor=white)](https://x.com/krishanthb7)
 
