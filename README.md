@@ -77,7 +77,3 @@ Building open-source technologies through **independent research, practical engi
 
 ---
 <!-- END SECTION 04 -->
-
-### 🏆 GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=krishanth7&theme=onedark&column=4)](https://github.com/ryo-ma/github-profile-trophy)
