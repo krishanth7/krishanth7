@@ -1,79 +1,50 @@
+<!-- Original custom-designed GitHub profile dashboard for Krishanth. -->
+<div align="center">
+  <a href="https://github.com/krishanth7"><img src="./cards/hero.svg" alt="Krishanth — Building the next system; founder and open-source engineer" width="100%"/></a>
+  <p>
+    <a href="https://github.com/krishanth7?tab=followers"><img src="https://img.shields.io/github/followers/krishanth7?style=for-the-badge&label=FOLLOWERS&labelColor=101C2D&color=58E7D5" alt="GitHub followers"/></a>
+    <a href="https://github.com/krishanth7?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-REPOSITORIES-73A9FF?style=for-the-badge&labelColor=101C2D" alt="Explore repositories"/></a>
+    <img src="https://komarev.com/ghpvc/?username=krishanth7&style=for-the-badge&color=58E7D5&label=PROFILE+VIEWS" alt="Profile views"/>
+  </p>
+</div>
 
-<!-- ===================================================== -->
-<!-- KRISHANTH | GITHUB PROFILE README                    -->
-<!-- MINIMAL CORPORATE / EXECUTIVE BLUE                    -->
-<!-- PRIMARY: #2563EB | NAVY: #0F172A | STARS: #FFD700     -->
-<!-- ===================================================== -->
+<div align="center">
+  <img src="./cards/activity.svg" width="100%" alt="Engineering activity: design, build, test, release"/>
+  <a href="https://github.com/krishanth7"><img src="https://ghchart.rshah.org/58E7D5/krishanth7" width="97%" alt="Real GitHub contributions for Krishanth"/></a>
+</div>
 
+<div align="center">
+  <a href="https://github.com/krishanth7/EveryO"><img src="./cards/ai.svg" width="33%" alt="Artificial intelligence"/></a><a href="https://github.com/krishanth7/dera"><img src="./cards/systems.svg" width="33%" alt="Systems engineering"/></a><a href="https://github.com/krishanth7?tab=repositories"><img src="./cards/open.svg" width="33%" alt="Open development"/></a>
+</div>
 
-<!-- SECTION 01 — INTRODUCTION -->
+<div align="center">
+  <img src="./cards/projects-title.svg" width="100%" alt="Selected projects — open-source engineering portfolio"/>
+  <a href="https://github.com/krishanth7/EveryO"><img src="./cards/project-everyo.svg" width="33%" alt="EveryO — Machine learning framework"/></a><a href="https://github.com/krishanth7/dera"><img src="./cards/project-dera.svg" width="33%" alt="DERA — Reverse engineering"/></a><a href="https://github.com/krishanth7/afterbyte-mono"><img src="./cards/project-afterbyte.svg" width="33%" alt="Afterbyte Mono — Developer font"/></a>
+</div>
 
-### Hey, I'm Krishanth
+### About
 
-**Founder · Open-Source Builder · Technology Enthusiast**
+I’m **Krishanth** — a founder and open-source builder working on **AI, developer infrastructure, reverse engineering, programming languages, and autonomous systems**. I enjoy understanding technology from first principles and turning ambitious engineering ideas into useful, well-designed tools.
 
-[![X](https://img.shields.io/badge/X-@krishanthb7-0F172A?style=flat&logo=x&logoColor=white)](https://x.com/krishanthb7)
-[![GitHub](https://img.shields.io/badge/GitHub-krishanth7-2563EB?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7)
-[![Followers](https://img.shields.io/github/followers/krishanth7?style=flat&label=Followers&labelColor=0F172A&color=2563EB)](https://github.com/krishanth7?tab=followers)
-![Profile Views](https://komarev.com/ghpvc/?username=krishanth7&label=Profile%20Views&color=2563EB&style=flat)
+### Technology stack
 
-I'm a technology founder building **open-source software, intelligent systems, and developer infrastructure**.
-
-My work spans **artificial intelligence, autonomous robotics, programming languages, and reverse engineering**, with a focus on practical engineering, independent research, and developing technologies from first principles.
-
-I believe in **open development, independent thinking, and creating technology that delivers lasting value**.
-
----
-
-<!-- SECTION 02 — SELECTED WORK -->
-
-### Selected Work
-
-Building open-source technologies across AI, reverse engineering, programming languages, and developer infrastructure.
-
-- **[EveryO](https://github.com/krishanth7/EveryO)** [![Stars](https://img.shields.io/github/stars/krishanth7/EveryO?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/EveryO) — Open-source machine learning and neural network framework.
-- **[DERA](https://github.com/krishanth7/dera)** [![Stars](https://img.shields.io/github/stars/krishanth7/dera?style=flat&label=Stars&labelColor=0F172A&color=FFD700)](https://github.com/krishanth7/dera) — Deterministic reverse engineering and database infrastructure.
-- **[Cretes](https://github.com/Cretes-lang)** — Programming language and compiler development ecosystem.
-- **OperatSI** — AI-native enterprise platform for intelligent workflows and agent orchestration.
-
----
-
-
-<!-- SECTION 03 — LANGUAGES & CONTRIBUTIONS -->
-
-### Languages & Contributions
-
-**Most Used Languages**
-
-<p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=github" height="165" alt="Top languages"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=github" height="165" alt="Most committed languages"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nodejs,html,css,kotlin,dart,tensorflow,git,github,linux&perline=14" alt="Technology stack: Python, Java, JavaScript, TypeScript, React, Node.js, HTML, CSS, Kotlin, Dart, TensorFlow, Git, GitHub and Linux"/>
 </p>
 
-**Contribution Activity**
+### GitHub at a glance
 
-[![GitHub Contributions](https://ghchart.rshah.org/2563EB/krishanth7)](https://github.com/krishanth7)
-
----
-
-
-
-<!-- SECTION 04 — OPEN SOURCE & COLLABORATION -->
-
-### Open Source & Collaboration
-
-Building open-source technologies through **independent research, practical engineering, and community collaboration**.
-
-- **Development** — Open-source frameworks, tools, and infrastructure.
-- **Research** — AI, autonomous systems, compilers, and reverse engineering.
-- **Collaboration** — Technical discussions, feedback, and contributions.
-
-**Explore & Connect**
-
-[![Repositories](https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7?tab=repositories)
-[![Discussions](https://img.shields.io/badge/Join-Discussions-0F172A?style=flat&logo=github&logoColor=white)](https://github.com/krishanth7/krishanth7/discussions)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Support_My_Work-EA4AAA?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/krishanth7)
-[![X](https://img.shields.io/badge/Connect-on_X-0F172A?style=flat&logo=x&logoColor=white)](https://x.com/krishanthb7)
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishanth7&theme=github_dark" width="98%" alt="Krishanth GitHub profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishanth7&theme=github_dark" width="48%" alt="Languages by repositories"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishanth7&theme=github_dark" width="48%" alt="Languages by commits"/>
+</div>
 
 ---
-<!-- END SECTION 04 -->
+
+<div align="center">
+  <a href="https://github.com/krishanth7?tab=repositories">Repositories</a> &nbsp; / &nbsp;
+  <a href="https://x.com/krishanthb7">X</a> &nbsp; / &nbsp;
+  <a href="https://github.com/sponsors/krishanth7">Sponsor development</a>
+  <p><sub>Designed for builders. Built in the open.</sub></p>
+</div>
