@@ -138,17 +138,32 @@
 <clipPath id="rounded"><rect x="0" y="0" width="1200" height="360" rx="34"/></clipPath>
 </defs>
 <style>
-.letter { animation: letter-reveal 1.15s cubic-bezier(.22,1,.36,1) both; }
-@keyframes letter-reveal { from {opacity:0} to {opacity:1} }
-.bio { animation: bio-reveal 1.3s ease-out .8s both; }
-@keyframes bio-reveal { from {opacity:0} to {opacity:1} }
-.accent { transform-origin: 600px 262px; animation: accent-reveal 1.2s cubic-bezier(.22,1,.36,1) .65s both; }
-@keyframes accent-reveal { from {opacity:0;transform:scaleX(.05)} to {opacity:1;transform:scaleX(1)} }
-@media (prefers-reduced-motion: reduce) { .letter,.bio,.accent {animation:none!important;opacity:1!important;transform:none!important;} }
+/* Subtle, repeating editorial animation. All lettering is authentic Afterbyte Mono outlines. */
+.letter { animation: letter-cycle 9s ease-in-out infinite; }
+@keyframes letter-cycle {
+  0%, 3% { opacity: .12; }
+  13%, 88% { opacity: 1; }
+  98%, 100% { opacity: .12; }
+}
+.bio { animation: bio-cycle 9s ease-in-out infinite; }
+@keyframes bio-cycle {
+  0%, 12% { opacity: 0; }
+  23%, 89% { opacity: 1; }
+  98%, 100% { opacity: 0; }
+}
+.accent { transform-origin: 600px 264px; animation: accent-cycle 9s ease-in-out infinite; }
+@keyframes accent-cycle {
+  0%, 9% { opacity: .2; transform: scaleX(.08); }
+  22%, 86% { opacity: 1; transform: scaleX(1); }
+  98%, 100% { opacity: .2; transform: scaleX(.08); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .letter, .bio, .accent { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
 </style>
 <g clip-path="url(#rounded)">
 <rect width="1200" height="360" fill="#F7F1E5"/>
-<g aria-label="Krishanth B" fill="#232723" transform="translate(56.60 219) scale(0.152 -0.152)"><use href="#g_uni004B" transform="translate(0 0)" class="letter" style="animation-delay:0.000s"/><use href="#g_uni0072" transform="translate(650 0)" class="letter" style="animation-delay:0.075s"/><use href="#g_uni0069" transform="translate(1300 0)" class="letter" style="animation-delay:0.150s"/><use href="#g_uni0073" transform="translate(1950 0)" class="letter" style="animation-delay:0.225s"/><use href="#g_uni0068" transform="translate(2600 0)" class="letter" style="animation-delay:0.300s"/><use href="#g_uni0061" transform="translate(3250 0)" class="letter" style="animation-delay:0.375s"/><use href="#g_uni006E" transform="translate(3900 0)" class="letter" style="animation-delay:0.450s"/><use href="#g_uni0074" transform="translate(4550 0)" class="letter" style="animation-delay:0.525s"/><use href="#g_uni0068" transform="translate(5200 0)" class="letter" style="animation-delay:0.600s"/><use href="#g_uni0042" transform="translate(6500 0)" class="letter" style="animation-delay:0.750s"/></g>
+<g aria-label="Krishanth B" fill="#232723" transform="translate(56.60 219) scale(0.152 -0.152)"><use href="#g_uni004B" transform="translate(0 0)" class="letter" style="animation-delay:0.000s"/><use href="#g_uni0072" transform="translate(650 0)" class="letter" style="animation-delay:0.098s"/><use href="#g_uni0069" transform="translate(1300 0)" class="letter" style="animation-delay:0.195s"/><use href="#g_uni0073" transform="translate(1950 0)" class="letter" style="animation-delay:0.293s"/><use href="#g_uni0068" transform="translate(2600 0)" class="letter" style="animation-delay:0.390s"/><use href="#g_uni0061" transform="translate(3250 0)" class="letter" style="animation-delay:0.488s"/><use href="#g_uni006E" transform="translate(3900 0)" class="letter" style="animation-delay:0.585s"/><use href="#g_uni0074" transform="translate(4550 0)" class="letter" style="animation-delay:0.683s"/><use href="#g_uni0068" transform="translate(5200 0)" class="letter" style="animation-delay:0.780s"/><use href="#g_uni0042" transform="translate(6500 0)" class="letter" style="animation-delay:0.975s"/></g>
 <rect class="accent" x="500" y="263" width="200" height="3" rx="1.5" fill="#A87E50"/>
 <g class="bio" aria-label="Exploring AI, robotics, autonomous systems, and intelligent machines." fill="#635E55" transform="translate(39.38 311) scale(0.025 -0.025)"><use href="#g_uni0045" transform="translate(0 0)"/><use href="#g_uni0078" transform="translate(650 0)"/><use href="#g_uni0070" transform="translate(1300 0)"/><use href="#g_uni006C" transform="translate(1950 0)"/><use href="#g_uni006F" transform="translate(2600 0)"/><use href="#g_uni0072" transform="translate(3250 0)"/><use href="#g_uni0069" transform="translate(3900 0)"/><use href="#g_uni006E" transform="translate(4550 0)"/><use href="#g_uni0067" transform="translate(5200 0)"/><use href="#g_uni0041" transform="translate(6500 0)"/><use href="#g_uni0049" transform="translate(7150 0)"/><use href="#g_uni002C" transform="translate(7800 0)"/><use href="#g_uni0072" transform="translate(9100 0)"/><use href="#g_uni006F" transform="translate(9750 0)"/><use href="#g_uni0062" transform="translate(10400 0)"/><use href="#g_uni006F" transform="translate(11050 0)"/><use href="#g_uni0074" transform="translate(11700 0)"/><use href="#g_uni0069" transform="translate(12350 0)"/><use href="#g_uni0063" transform="translate(13000 0)"/><use href="#g_uni0073" transform="translate(13650 0)"/><use href="#g_uni002C" transform="translate(14300 0)"/><use href="#g_uni0061" transform="translate(15600 0)"/><use href="#g_uni0075" transform="translate(16250 0)"/><use href="#g_uni0074" transform="translate(16900 0)"/><use href="#g_uni006F" transform="translate(17550 0)"/><use href="#g_uni006E" transform="translate(18200 0)"/><use href="#g_uni006F" transform="translate(18850 0)"/><use href="#g_uni006D" transform="translate(19500 0)"/><use href="#g_uni006F" transform="translate(20150 0)"/><use href="#g_uni0075" transform="translate(20800 0)"/><use href="#g_uni0073" transform="translate(21450 0)"/><use href="#g_uni0073" transform="translate(22750 0)"/><use href="#g_uni0079" transform="translate(23400 0)"/><use href="#g_uni0073" transform="translate(24050 0)"/><use href="#g_uni0074" transform="translate(24700 0)"/><use href="#g_uni0065" transform="translate(25350 0)"/><use href="#g_uni006D" transform="translate(26000 0)"/><use href="#g_uni0073" transform="translate(26650 0)"/><use href="#g_uni002C" transform="translate(27300 0)"/><use href="#g_uni0061" transform="translate(28600 0)"/><use href="#g_uni006E" transform="translate(29250 0)"/><use href="#g_uni0064" transform="translate(29900 0)"/><use href="#g_uni0069" transform="translate(31200 0)"/><use href="#g_uni006E" transform="translate(31850 0)"/><use href="#g_uni0074" transform="translate(32500 0)"/><use href="#g_uni0065" transform="translate(33150 0)"/><use href="#g_uni006C" transform="translate(33800 0)"/><use href="#g_uni006C" transform="translate(34450 0)"/><use href="#g_uni0069" transform="translate(35100 0)"/><use href="#g_uni0067" transform="translate(35750 0)"/><use href="#g_uni0065" transform="translate(36400 0)"/><use href="#g_uni006E" transform="translate(37050 0)"/><use href="#g_uni0074" transform="translate(37700 0)"/><use href="#g_uni006D" transform="translate(39000 0)"/><use href="#g_uni0061" transform="translate(39650 0)"/><use href="#g_uni0063" transform="translate(40300 0)"/><use href="#g_uni0068" transform="translate(40950 0)"/><use href="#g_uni0069" transform="translate(41600 0)"/><use href="#g_uni006E" transform="translate(42250 0)"/><use href="#g_uni0065" transform="translate(42900 0)"/><use href="#g_uni0073" transform="translate(43550 0)"/><use href="#g_uni002E" transform="translate(44200 0)"/></g>
 </g>
