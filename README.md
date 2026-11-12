@@ -2,6 +2,10 @@
   <img src="./cards/krishanth-b-cream.svg" width="100%" alt="Krishanth B — Exploring AI, robotics, autonomous systems, and intelligent machines." />
 </div>
 
-<div align="center">
-<a href="https://github.com/krishanth7/EveryO"><img src="./cards/project-everyo-fixed.svg" width="33%" alt="EveryO — 5 stars — open repository" /></a><a href="https://github.com/krishanth7/dera"><img src="./cards/project-dera-fixed.svg" width="33%" alt="DERA — 4 stars — open repository" /></a><a href="https://github.com/krishanth7/afterbyte-mono"><img src="./cards/project-afterbyte-mono-fixed.svg" width="33%" alt="afterbyte-mono — 3 stars — open repository" /></a>
-</div>
+<table width="100%" cellspacing="10" cellpadding="0">
+  <tr>
+    <td width="33.33%" valign="top"><a href="https://github.com/krishanth7/EveryO"><img src="./cards/project-everyo-topics.svg" width="100%" alt="EveryO — 5 stars. AI Framework, Deep Learning, CUDA and Python. Open repository." /></a></td>
+    <td width="33.33%" valign="top"><a href="https://github.com/krishanth7/dera"><img src="./cards/project-dera-topics.svg" width="100%" alt="DERA — 4 stars. Database Engineering, Reverse Engineering, Schema Visualization. Open repository." /></a></td>
+    <td width="33.33%" valign="top"><a href="https://github.com/krishanth7/afterbyte-mono"><img src="./cards/project-afterbyte-mono-topics.svg" width="100%" alt="afterbyte-mono — 3 stars. Typography, OpenType, Unicode and WOFF2. Open repository." /></a></td>
+  </tr>
+</table>
